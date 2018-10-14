@@ -36,6 +36,6 @@ $(function () {
 
 ### 项目预览
 
-![tim](C:\Users\Shinelon\Documents\HBuilderProject\QQTIM\img\tim.png)
+![tim](https://github.com/AprildreamMI/QQTIM/blob/master/img/tim.png)
 
-![Tim2](C:\Users\Shinelon\Documents\HBuilderProject\QQTIM\img\Tim2.png)
+![Tim2](https://github.com/AprildreamMI/QQTIM/blob/master/img/Tim2.png)
