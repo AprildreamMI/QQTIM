@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #333;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/*顶部导航*/
+.qq_nav {
+    height: 150px;
+    background: url("../img/nav_bg.png") repeat-x;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.qq_nav .wrapper {
+    width: 1080px;
+    height: 75px;
+    margin: 0 auto;
+}
+.qq_nav .wrapper .left-logoimg {
+    float: left;
+}
+.qq_nav .wrapper .left-logoimg .qq-logo {
+    width: 100px;
+    height: 75px;
+    background: url("../img/nav_brand.png") no-repeat center;
+    float: left;
+}
+.qq_nav .wrapper .left-logoimg ul {
+    float: right;
+}
+.qq_nav .wrapper .left-logoimg ul li {
+    float: left;
+    font-size: 18px;
+    line-height: 75px;
+    margin-left: 20px;
+}
+.qq_nav .wrapper .left-logoimg ul li a {
+    display: block;
+    padding: 0 20px;
+}
+.qq_nav .wrapper .left-logoimg ul li a.active,
+.qq_nav .wrapper .left-logoimg ul li a:hover {
+    background: #12b7f5;
+}
+.qq_nav .wrapper .right-login {
+    position: relative;
+    float: right;
+}
+.qq_nav .wrapper .right-login .qq-login {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 96px;
+    height: 36px;
+    background: #12b7f5;
+    border-radius: 15px;
+    line-height: 36px;
+    font-size: 16px;
+    color: white;
+    margin-top: 19px;
+}
+.qq_nav .wrapper .right-login ul {
+    float: right;
+}
+.qq_nav .wrapper .right-login ul li {
+    float: left;
+    margin-left: 40px;
+    line-height: 50px;
+}
+.qq_nav .wrapper .right-login ul li a {
+    font-size: 14px;
+    text-shadow: 0 0 2px black;
+}
+.qq_nav .wrapper .right-login span {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}
+
+/*展示开始*/
+.qq_banner {
+    height: 880px;
+    background: url("../img/banner-bg.jpg");
+    padding-top: 150px;
+}
+.qq_banner img {
+    display: block;
+    margin: 20px auto 0;
+}
+
+/*沟通*/
+.qq_sound {
+
+}
+.qq_sound h1 {
+    height: 321px;
+    background: url("../img/sound-text.png") no-repeat center/cover;
+    font-size: 0;
+    margin-top: 100px;
+}
+.qq_sound .qq_sound_gire_bg {
+    height: 500px;
+    background: url("../img/sound-bg.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+}
+.qq_sound .sound_wrapper {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.qq_sound .sound_wrapper .iphone {
+    position: absolute;
+    height: 680px;
+    width: 664px;
+    background: url("../img/sound-phone.png") no-repeat;
+    top: -200px;
+    left: 0px;
+}
+.qq_sound .sound_wrapper h2 {
+    text-align: right;
+    float: right;
+    padding-top: 100px;
+    width: 500px;
+    font-size: 40px;
+}
+.qq_sound .sound_wrapper p {
+    float: right;
+    text-align: right;
+    padding-top: 50px;
+    width: 500px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+}
+
+/*文件*/
+.qq_file {
+
+}
+.qq_file .qq_file_bg {
+    height: 500px;
+    background: url("../img/file-bg.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+}
+.qq_file .file_wrapper {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.qq_file .file_wrapper .conmentple {
+    position: absolute;
+    width: 600px;
+    height: 340px;
+    background: url("../img/file-mac.png") no-repeat;
+    top: 60px;
+    right: -35px;
+}
+.qq_file .file_wrapper h2 {
+    text-align: left;
+    float: left;
+    padding-top: 100px;
+    width: 500px;
+    font-size: 40px;
+}
+.qq_file .file_wrapper p {
+    float: left;
+    text-align: left;
+    padding-top: 50px;
+    width: 500px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+}
+
+/*兴趣*/
+.qq_interest .qq_interest_bg {
+    height: 500px;
+    background: url("../img/interest-bg.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+}
+.qq_interest .interest_wrapper {
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.qq_interest .interest_wrapper .interest_iphone {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background: url("../img/interest-phone.png") no-repeat;
+    top: -0px;
+    left: 0px;
+}
+.qq_interest .interest_wrapper h2 {
+    text-align: right;
+    float: right;
+    padding-top: 100px;
+    width: 500px;
+    font-size: 40px;
+}
+.qq_interest .interest_wrapper p {
+    float: right;
+    text-align: right;
+    padding-top: 50px;
+    width: 500px;
+    font-size: 18px;
+    text-shadow: 0 0 2px #333;
+}
